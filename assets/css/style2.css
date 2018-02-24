@@ -80,7 +80,7 @@ font-family: humnst;
 }
 
 #atas{
-	padding-top: 40px;
+	padding-top: 100px;
 }
 
 .footer {
@@ -94,4 +94,70 @@ padding-top: 10px;
 
 #tulisan-footer{
 	color: white;
+}
+
+.tombol-1{
+	width: 150px;
+	height: 50px;
+	border: transparent; 5px;
+	border-radius: 0px;
+	margin: 2px, 2px, 2px, 2px;
+	color: #ffffFF;
+	background-color: #FF6699;
+	font: 20px bold arial black;
+	transition: 0.2s;
+	transition-duration: 2s;
+}
+
+.tombol-1:hover{
+border-radius: 10px;
+color: #fffffd;
+background-color: #3366CC;
+transition: 1s;
+transition-duration: 2s;
+border : 5px #3366CC;
+}
+
+.tombol-2{
+	width: 150px;
+	height: 50px;
+	border: transparent; 5px;
+	border-radius: 0px;
+	margin: 2px, 2px, 2px, 2px;
+	color: #ffffFF;
+	background-color: #66FF66;
+	font: 20px bold arial black;
+	transition: 0.2s;
+	transition-duration: 2s;
+}
+
+.tombol-2:hover{
+border-radius: 10px;
+color: #fffffd;
+background-color: #3366CC;
+transition: 1s;
+transition-duration: 2s;
+border : 5px #3366CC;
+}
+
+.tombol-3{
+	width: 150px;
+	height: 50px;
+	border: transparent; 5px;
+	border-radius: 0px;
+	margin: 2px, 2px, 2px, 2px;
+	color: #ffffFF;
+	background-color: #80ced6;
+	font: 20px bold arial black;
+	transition: 0.2s;
+	transition-duration: 2s;
+}
+
+.tombol-3:hover{
+border-radius: 10px;
+color: #fffffd;
+background-color: #3366CC;
+transition: 1s;
+transition-duration: 2s;
+border : 5px #3366CC;
 }
