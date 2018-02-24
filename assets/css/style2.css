@@ -1,0 +1,97 @@
+/*logo atas*/
+#logo { 
+height: 90px;
+margin-left: 10px;
+margin-right: 10px;
+}
+
+/*logo bawah*/
+#logo2 {
+height: 90px;
+margin-left: 10px;
+margin-right: 10px;
+padding-top: 20px;
+align-content: center;
+}
+
+nav ul li {
+list-style: none;
+display: inline-block;
+padding-top: 10px;
+}
+
+nav{
+	position: fixed;
+	z-index: 99;
+	width: 100%;
+	transition: .3s ease;
+	margin: auto;
+	text-align: center;
+	font-weight: bold;
+}
+
+#banner {
+	width: 100%;
+}
+
+.navbar{
+	padding-top: 20px;
+	background: transparent;
+	color: black;
+}
+
+#foto_kiri{
+	height: 300px;	
+	padding-top: 80px;
+	padding-left: 80px;
+}
+
+#foto_kanan {
+	height: 400px;	
+	padding-top: 20px;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+.kedua {
+	padding-top: 50px;
+	padding-right: 50px;
+}
+
+.container {
+	padding-top: 400px;
+}
+
+.tulisan-kanan{
+padding-top: 50px;
+padding-left: 100px;
+font-family: humnst;
+}
+
+.tulisan-kiri{
+padding-top: 50px;
+padding-right: 100px;
+font-family: humnst;
+}
+
+#button1;{
+	text-align: center;
+	padding-top: 30px;
+}
+
+#atas{
+	padding-top: 40px;
+}
+
+.footer {
+padding-top: 10px;	
+
+}
+
+.buat-bawah{
+	padding-top: 10px;
+}
+
+#tulisan-footer{
+	color: white;
+}
