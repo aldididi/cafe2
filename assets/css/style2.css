@@ -20,6 +20,11 @@ display: inline-block;
 padding-top: 10px;
 }
 
+li:hover{
+ 	background:transparent;
+ 	background-color: black;
+}
+
 nav{
 	position: fixed;
 	z-index: 99;
@@ -32,6 +37,9 @@ nav{
 
 #banner {
 	width: 100%;
+	height: 675px;
+	background: url(../img/cafe1.jpeg);
+	background-size: cover;
 }
 
 .navbar{
@@ -53,18 +61,16 @@ nav{
 	padding-right: 30px;
 }
 
-.kedua {
+.container {
 	padding-top: 50px;
-	padding-right: 50px;
 }
 
-.container {
-	padding-top: 400px;
+.kedua {
 }
 
 .tulisan-kanan{
 padding-top: 50px;
-padding-left: 100px;
+
 font-family: humnst;
 }
 
@@ -74,10 +80,12 @@ padding-right: 100px;
 font-family: humnst;
 }
 
-#button1;{
+/*#button1{
 	text-align: center;
 	padding-top: 30px;
-}
+	align-content: center;
+	padding-left: 100px;
+}*/
 
 #atas{
 	padding-top: 100px;
@@ -160,4 +168,8 @@ background-color: #3366CC;
 transition: 1s;
 transition-duration: 2s;
 border : 5px #3366CC;
+}
+
+.myCarousel {
+	padding-bottom: 100px;
 }

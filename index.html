@@ -2,6 +2,11 @@
 <html>
 <head>
 	<title>Wierd-cafe</title>
+
+    <!-- jquery -->
+  <script src="assets/js/jquery-3.2.1.min.js"></script>
+  <script src="assets/js/main.js"></script>
+
 	<!-- bootstrapnya -->
 	<link rel="stylesheet" type="text/css" href="assets/addons/bootstrap-3.3.7/css/bootstrap.min.css">
 	<script src="assets/addons/bootstrap-3.3.7/js/bootstrap.min.js"></script>
@@ -9,9 +14,7 @@
 	<!-- Master Style -->
       <link rel="stylesheet" href="assets/css/style2.css">
 
-    <!-- jquery -->
-<script src="assets/js/jquery-3.2.1.min.js"></script>
-<script src="assets/js/main.js"></script>
+
 
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -30,9 +33,9 @@
 
 <body style="background-color: #e8e8e8;">
 
-<nav class="navbar">	
+<nav class="nav">	
 		<ul>
-		<li> <a href="#home"> Home </a> &nbsp; &nbsp; </li>
+		<li class="active"> <a href="#home"> Home </a> &nbsp; &nbsp; </li>
 		<li><a href="#gallery"> Gallery</a> &nbsp; &nbsp; </li>
 		<li><img id="logo" src="assets/img/logo.png"> &nbsp; </li>
 		<li><a href="#Location"> Location</a> &nbsp; &nbsp; </li>
@@ -41,18 +44,29 @@
 </nav>	
 
 <!-- banner -->
+<div class="banner-container">
+  <!-- nama cafe -->
+
+ <!-- <div class="banner"> 
+  <div class="name-com">
+    <h5 class="wierd"> WIERD CAFE </h5>
+  </div> -->
 
 <div class="topnav" align="center">
-	<img id="banner" src="assets/img/cafefe.jpeg" align="center"> 
+    	<img id="banner" src="assets/img/cafe1.jpeg" align="center"> 
+    </div> -->
 </div>
-
+</div>
 <!-- dibawah banner -->
-<div class="kedua">
-	<img id="foto_kiri" src="assets/img/artboard1.png" align="left">
-	<img id="foto_kanan" src="assets/img/coffee-cup-working-happy.jpg" align="right">
+
+<div class="container" >
+  <div class="row">
+    <div class="kedua">
+    	<img id="foto_kiri" src="assets/img/artboard1.png" align="left">
+    	<img id="foto_kanan" src="assets/img/coffee-cup-working-happy.jpg" align="right">
+    </div>
+  </div>  
 </div>
-
-
 
 
 <!-- foto buletan ada 3 -->
@@ -105,16 +119,18 @@
   </div>
 </div>
 
-<!-- story -->
-<div class="col-md-6"; > </div>
+
 
 <!-- our story -->
 <div class="atas">
 <h3 style="text-align: center;"> OUR STORY </h3>
 			<h3 style="text-align: center;"> Come and let's chill </h3>
 </div>
-<div class="col-md-6"; >
-	<div class="tulisan-kanan">
+
+<div class="container" >
+  <div class="row" >
+    <div class="col-md-6" >
+    	<div class="tulisan-kanan">
 	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -131,12 +147,12 @@
 
 
 
-	</div>
-</div>	
+    	</div>
+    </div>	
 
 
-<div class="col-md-6"; >
-	<div class="tulisan-kiri">
+    <div class="col-md-6" >
+    	<div class="tulisan-kiri">
 	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -150,11 +166,13 @@
 	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 	
-	</div>
-</div>	
-<!-- 
-<div class="button1">	
-<button type="button" class="btn btn-default" id="read-more">Read More</button>		
+    	</div>
+    </div>	
+  </div>  
+</div>
+
+<!-- <div class="button1">	
+<button type="button" class="btn btn-default" id="read-more" style="text-align: center;">Read More</button>		
 </div> -->
 
 <!-- carrousel -->
@@ -167,6 +185,7 @@
       <li data-target="#myCarousel" data-slide-to="1"></li>
       <li data-target="#myCarousel" data-slide-to="2"></li>
       <li data-target="#myCarousel" data-slide-to="3"></li>
+      <li data-target="#myCarousel" data-slide-to="4"></li>
     </ol>
 
     <!-- Wrapper for slides -->
@@ -176,16 +195,16 @@
       </div>
 
       <div class="item">
-        <img src="assets/img/cafe2.jpg" alt="Chania" width="460" height="345">
+        <img src="assets/img/cafe2.jpeg" alt="Chania" width="460" height="345">
       </div>
     
       <div class="item">
-        <img src="assets/img/cafe3.jpg" alt="Flower" width="460" height="345">
+        <img src="assets/img/cafe3.jpeg" alt="Flower" width="460" height="345">
       </div>
 
-      <div class="item">
-        <img src="cafe1.jpg" alt="Flower" width="460" height="345">
-      </div>
+   <!-- <div class="item">
+        <img src="cafe4.jpeg" alt="Flower" width="460" height="345">
+      </div>  -->
     </div>
 
     <!-- Left and right controls -->
@@ -204,14 +223,15 @@
 <!-- <div class="col-md-12" id="footer" style="background-color: #E8EDF3">
 </div> -->
 
-<div class="col-md-12" id="footer" style="background:#aaa; height:200px;">
-	
-	<div class="buat-bawah" align="center">
-		<img id="logo2" src="assets/img/logo.png">
-		<h3 style="text-align: center;" id="tulisan-footer"> come here, and get free coffee </h3>
+<div class="container" >
+  <div class="col-md-12" id="footer" style="background:#aaa; height:200px;">
+  	
+  	<div class="buat-bawah" align="center">
+  		<img id="logo2" src="assets/img/logo.png">
+  		<h3 style="text-align: center;" id="tulisan-footer"> come here, and get free coffee </h3>
+  	</div>
 
-	</div>
-
+  </div>
 </div>
 </body>
 </html>
